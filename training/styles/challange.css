@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(242, 145, 203);
+    padding: 10px;
+  }
+
+h1 {
+    color: rgb(239, 243, 247);
+    text-align: center;
+}
+
+
+h3,h4 {
+    color: rgb(239, 243, 247);
+    text-align: center; 
+}
+
+img {
+  width: 10%;
+  display: block;
+  margin: 20px auto;
+}
+
+#bulleted {
+  color: white;
+  
+}
+
+#change {
+    width: 10%;
+  
+}
+
+p {
+    width: 10%;
+    margin:  auto;
+    text-align: left;
+    
+}
+
+  footer {
+    
+    color: black;
+    text-align: center;
+    display: inline;
+    margin: 0 auto;
+  
+  }
+
+  * {
+    border: 2px solid red;
+  }
