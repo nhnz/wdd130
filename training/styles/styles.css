@@ -1,6 +1,6 @@
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
   }
 
 nav, footer {
@@ -10,23 +10,25 @@ a {
     font-size: 1.5em;  
     color: white;
     margin: 40px;
+    padding: 25px;
   }
 
 h1 {
     color: steelblue;
-  }
-
-  h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
 img {
   width: 80%;
   display: block;
   margin: 0 auto;
+  border: 4px solid steelblue;
 }
 
-
+body {
+  margin: 0
+}
   
 img {
     width: 80%;
@@ -67,6 +69,7 @@ nav, footer {
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
 }
 
 a:hover {

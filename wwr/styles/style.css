@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Work+Sans&display=swap');
+
+:root {
+--heading-font: "Work Sans", Helvetica, sans-serif;
+--paragraph-font: Eczar, Helvetica, sans-serif;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +14,7 @@ nav a {
     text-align: center;
     color: #EBEBEB;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-message h1, #hero-message h4 {
@@ -23,11 +31,17 @@ main section {
 
 #background {
     height: 725px;
+    margin-bottom: 100px;
 }
 
 body {
     background-color: #EBEBEB ;
     color: #3A6EA5;
+    font-family: Eczar, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
@@ -43,6 +57,10 @@ nav a:hover {
     background-color: #3A6EA5;
     color: #C0C0C0;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,16 +73,24 @@ nav a:hover {
 }
 
 .msg {
-  color: #3A6EA5;  
+  color: #3A6EA5;
+  line-height: 1.5em; 
+  padding: 35px;
+  margin-top: 200px;
 }
 
 footer  {
     background-color: #3A6EA5;
     color: #C0C0C0;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 #home-title {
     color: #3A6EA5;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4  {
@@ -73,10 +99,13 @@ h4  {
 
 .msg h2 {
     color: #3A6EA5;
+    font-family: var(--heading-font);
 }
 
 .msg p {
     color: #3A6EA5;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -91,6 +120,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -104,3 +134,29 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }
+
+h2 {
+    margin: 0;
+}
+
+#logo_link  { 
+    padding-top: 5px;
+}
+
+footer .social img   {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card   {
+    margin: 200px 0;
+}
+
+
+.card-img {
+    border: 10px solid #FFB685;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
