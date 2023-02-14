@@ -84,10 +84,13 @@ nav a:hover {
   color: #3A6EA5;
   line-height: 1.5em; 
   padding: 35px;
-  margin-top: 200px;
   grid-column: 6/10;
   grid-row: 6/7;
-  box-shadow: 5px 5px 10px #6f7364;
+  box-shadow: 5px 5px 10px #FFB685;
+  background-color: #3A6EA5;
+  margin-top: -75px;
+  
+  
 }
 
 footer  {
@@ -101,23 +104,23 @@ footer  {
 }
 
 #home-title {
-    color: #3A6EA5;
+    color: #C0C0C0;
     font-family: var(--heading-font);
     font-size: 2em;
     margin-top: 10px;
 }
 
 h4  {
-    color: #3A6EA5;
+    color: #C0C0C0;
 }
 
 .msg h2 {
-    color: #3A6EA5;
+    color: #C0C0C0;
     font-family: var(--heading-font);
 }
 
 .msg p {
-    color: #3A6EA5;
+    color: #C0C0C0;
     font-size: 0.8em;
     padding-bottom: 15px;
 
@@ -209,7 +212,8 @@ main {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #FFB685;
+    margin-top: -75px;
 }
 
 .rapids-card {
