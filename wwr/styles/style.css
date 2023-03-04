@@ -236,6 +236,71 @@ main {
     transform: scale(1.1);
 }
 
+
+.page2-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.salmon-river, .desolate-river, .grand-canyon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    font-size: 1.2em;
+    
+}    
+
+.img-salmon {
+    width: 85%;
+    height: 75%;
+
+}
+
+.button-box2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+    margin-top: -170px;
+}
+
+.salmon-p {
+    margin-top: -20px;
+}
+    
+
+.img-river2 {
+    width: 95%;
+    height: 85%;
+    margin-left: 100px;
+}
+
+.button-box3 {
+    grid-row: 2/3;
+    grid-column: 2/3 ;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.desolate-p {
+    margin-top: -15px;
+}
+
+.img-river3 {
+    width: 85%;
+    height: 85%;
+    margin-top: 40px;
+
+}
+.button-box4 {
+    grid-row: 2/3;
+    grid-column: 1/2 ;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

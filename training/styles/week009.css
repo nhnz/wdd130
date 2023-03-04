@@ -1,0 +1,41 @@
+.box {
+    background-color: navy;
+    
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    font-size: smaller;
+
+
+    padding: 30px;
+      
+}
+ .box1 {
+    text-align: center;
+ }
+
+#width {
+    width: 200px;
+    height: 300px;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100 px;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    color: navy;
+} 
