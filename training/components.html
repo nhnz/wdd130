@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componets</title>
+    <link rel="stylesheet" href="styles/component.css">
+</head>
+<body>
+
+    <h2>Vertical Tabs</h2>
+    <p>Click on the buttons inside the tabbed menu:</p>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'King')">King</button>
+        <button class="tablinks" onclick="openCity(event, 'Queen')">Queen</button>
+        <button class="tablinks" onclick="openCity(event, 'Rook')">Rook</button>
+        <button class="tablinks" onclick="openCity(event, 'Bishop')">Bishop</button>
+        <button class="tablinks" onclick="openCity(event, 'Knight')">Knight</button>
+        <button class="tablinks" onclick="openCity(event, 'Pawn')">Pawn</button>
+
+    </div>
+      
+    <div id="King" class="tabcontent">
+        <h3>King</h3>
+        <p>The king is the most important piece in chess (there’s a reason it’s called the “king,” after all), and every chess strategy revolves in some way around finding ways to protect your king while threatening your opponent’s.</p>
+    </div>
+      
+    <div id="Queen" class="tabcontent">
+        <h3>Queen</h3>
+        <p>The Queen moves like the Rook and Bishop combined. She can move in straight lines like the Rook and diagonally like the Bishop. The Queen can capture any piece on the chessboard. The Queen can move forward and backward, but she can never jump over any other pieces.</p>
+    </div>
+      
+    <div id="Rook" class="tabcontent">
+        <h3>Rook</h3>
+        <p>The rook is a piece in the game of chess. It may move any number of squares horizontally or vertically without jumping, and it may capture an enemy piece on its path.</p>
+    </div>
+
+    <div id="Bishop" class="tabcontent">
+        <h3>Bishop</h3>
+        <p>The bishop is a chess piece that moves only on the diagonals, either forward or backward.</p>
+    </div>
+
+    <div id="Knight" class="tabcontent">
+        <h3>Knight</h3>
+        <p>The knight (♘, ♞) is a piece in the game of chess, represented by a horse's head and neck. It moves two squares vertically and one square horizontally, or two squares horizontally and one square vertically, jumping over other pieces..</p>
+    </div>
+
+    <div id="Pawn" class="tabcontent">
+        <h3>Pawn</h3>
+        <p>The pawn (♙, ♟) is the most numerous and weakest piece in the game of chess. It may move one vacant square directly forward, it may move two vacant squares directly forward on its first move, and it may capture one square diagonally forward.</p>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
