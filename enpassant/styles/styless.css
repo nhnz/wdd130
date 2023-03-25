@@ -99,7 +99,7 @@ height: 100% ;
 
 footer p,a {
     color: #CBA165;
-    font-family: "Shadows Into Light Two", Helvetica, sans-serif;;
+    font-family: "Shadows Into Light Two", Helvetica, sans-serif;
 
 }
 
@@ -122,4 +122,136 @@ footer p:hover, footer a:hover {
 h1:hover, h2:hover, h3:hover {
     background-color: #618985;
     color: #FFFFFF; 
+}
+
+#pieces {
+    background-color: #0F0A0A;
+    color: #CBA165;
+}
+
+#main-page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 300px;
+    
+    
+}
+
+#pieces {
+    width: 560px;
+    height: 80%;
+    grid-row: 1/2;
+    grid-column: 1/2; 
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+
+.picture {
+    float: left;
+    width: 300px;
+    font-family: "Shadows Into Light Two", Helvetica, sans-serif;
+    
+}
+
+.best-matches {
+    grid-row: 1/2;
+    grid-column: 2/4;
+    width: 1150px;
+    margin-top: 61px;
+    text-align: center;
+    padding: 20px;
+    font-family: Roboto, Concert-One, sans-serif;
+    
+}
+
+.top-players {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 600px;
+    font-family: Roboto, Concert-One, sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+.ladies-playing {
+    width: 300px;
+    z-index: 1;
+    padding: 50px;
+
+}
+
+.background {
+    width: 560px;
+    height: 500px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-color:  #0F0A0A;
+    margin: auto;
+    margin-bottom: -20px;
+    color: #CBA165;
+    font-family: "Shadows Into Light Two", Helvetica, sans-serif;
+    
+    
+
+}
+
+.beginning {
+    width: 560px;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-top: 300px;
+    font-family: Roboto, Concert-One, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.heading-page2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: Roboto, Concert-One, sans-serif;
+    text-align: center;
+}
+
+.last-pic {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width: 300px;
+    z-index: 1;
+    margin-left: 70px ;
+    margin-top: -250px;
+}
+
+.background1 {
+    width: 560px;
+    height: 500px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color:  #0F0A0A;
+    margin: auto;
+    margin-top: -300px;
+    color: #CBA165;
+    
+    
+    
+}
+
+.old-games {
+    margin: 0 auto;
+    width: 560px;
+    font-family: Roboto, Concert-One, sans-serif;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.last-para {
+    margin: auto;
+    margin-top: -20px ;
+    width: 500px;
+    font-family: Roboto, Concert-One, sans-serif;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    color: #CBA165;
 }
