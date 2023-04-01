@@ -5,99 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun and Games</title>
+    <link rel="stylesheet" href="styles/styless.css">
 </head>
 <body>
-    <header>
-        <div>
-            <a id="logo_link" href="index.html">
-            <img src="images/n.png" alt="logo">
-            </a>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="learn.html">Learn</a>
-            <a href="funandgames.html">fun and Games</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Quizzes and Puzzles</h1>
-       <section>
-        <h2>Do You Know Your Chess?</h2>
-        <img src="images/quizz.png" alt="chess puzzles">
-        <p>
-            1. The quickest possible checkmate is in:
-            A) 2 moves
-            B) 1 move
-            C) 3 moves
-            D) 4 moves
+    <div id="content">
+        <header>
+            <div id="logo">
+                <a id="logo_link" href="index.html">
+                <img src="images/n.png" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="learn.html">Learn</a>
+                <a href="funandgames.html">fun and Games</a>
+            </nav>
+        </header>
+        <main id="quizzes">
             
-            2. Where did chess originate?
-            A) India
-            B) Russia
-            C) Italy
-            D) France
-        </p>
+            <div class="page2_heading">
+                <h1 >Quizzes and Puzzles</h1>
+                <img class="king_and_pawns" src="images/king.jpg" alt="King and pawns">  
+            </div>    
+               
 
-        <p>
-            What is an alternate name for a rook?
-Which chess piece can only move diagonally?
-Which player has been ranked world number-one since 2011?
-How many knights does each player have at the start of a game?
-What is the highest title that a chess player can attain?
-What is the term for the first moves in a chess game?
-        </p>
-       
-        </section>
-
-       <section>
-        
-        <h2>Do You Know Your Players?</h2>
-        <div>
-            <img src="images/chessboard.jpg" alt="chessboard">  
-        </div>
-
-        <div></div>
-        <p>
-            Name the top 5 current world champions’
-        </p>
-
-        <div></div>
-
-       </section>
-
-       <section>
-        <h2>Grand masters</h2>
-        <p>
-            Name the top 5 Women grand Masters
-        </p>
-
-       </section>
-            
-       <section>
-        <h2>For Children</h2>
-        <img src="images/handshake.png" alt="hands holding each other">
-            <p>How Many Squares on a Chessboard?
-                What Happens When a Pawn Reaches the Other Side?
+            <section id="knowledge">
+                <h2 class="knowledge_heading">Do You Know Your Chess?</h2>
+                <img class="chess_board" src="images/quizz.png" alt="chess puzzles">
+                <p>1. The quickest possible checkmate is in:</p>
+                <p> A) 2 moves </p>
+                <p> B) 1 move  </p>
+                <p> C) 3 moves </p>
+                <p>D) 4 moves</p>    
+                <p>2. Where did chess originate?</p>    
+                <p>A) India</p>    
+                <p>B) Russia</p>    
+                <p>C) Italy</p>   
+                <p>D) France</p>
                 
-            </p>
-       </section>
-    </main>
-    <footer>
-        <p>En Passant; 2023 - Nhlakanipho Nzama</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="learn.html">Learn</a></p>
-        <p><a href="funandgames.html">Fun and Games</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank" >
-                <img src="images/facebook.png" alt="fb icon">
-            </a>s
-            <a href="https://twitter.com" target="_blank" >
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank" >
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-    </footer>
+
+            </section>
+            
+            <div class="knowledge_background"></div>
+
+            <div class="question_answer">
+                <p>What is an alternate name for a rook?</p>
+                <p>Which chess piece can only move diagonally?</p>
+                <p>Which player has been ranked world number-one since 2011?</p>
+                <p>How many knights does each player have at the start of a game?</p>
+                <p>What is the highest title that a chess player can attain?</p>
+                <p>What is the term for the first moves in a chess game?</p>
+                <div id="question_answer"></div>
+            </div>   
+       
+
+            <section class="players">
+        
+                <h2 >Do You Know Your Players?</h2>
+                
+                <div class="answers"></div>
+                <p class="player_p">
+                    Name the current world top 5 ranked players 
+                </p>
+
+                <div class="answers2"></div>
+                <p class="player_p2">Name the 1st official World Chess champions?</p>
+
+            </section>
+
+            <div class="players_background"></div>
+
+            <section class="grand_masters">
+                <h2 class="knowledge_heading" >Grand masters</h2>
+                <p>Name the top 5 Women grand Masters</p>
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Answer-1')" id="defaultOpen">Answer-1</button>
+                    <button class="tablinks" onclick="openCity(event, 'Answer-2')">Answer-2</button>
+                    <button class="tablinks" onclick="openCity(event, 'Answer-3')">Answer-3</button>
+                    <button class="tablinks" onclick="openCity(event, 'Answer-4')">Answer-4</button>
+                    <button class="tablinks" onclick="openCity(event, 'Answer-5')">Answer-5</button>
+                    <button class="tablinks" onclick="openCity(event, 'Answer-6')">Answer-6</button>
+                </div>
+                
+                
+                <div id="Answer-1" class="tabcontent">
+                        <h3>Answer-1</h3>
+                        <p>The fastest way to win a game of chess is in two moves in an opening called ‘Fool’s Mate’ which takes advantage of the player with the white pieces making two consecutive moves with pawns on the F and G files opening the King to a defenseless, lost position.
+                        </p>
+                </div>  
+                
+                <div id="Answer-2" class="tabcontent">
+                        <h3>Answer-2</h3>
+                        <p>The history of chess can be traced back nearly 1500 years to its earliest known predecessor, called chaturanga, in India.
+                        </p>
+                </div>
+
+                <div id="Answer-3" class="tabcontent">
+                        <h3>Answer 3</h3>
+                        <p>Another name for a rook is a castle.</p>
+                        <p> A bishop is a piece that can only move diagonally</p>
+                        <p>Magnus Carlsen was ranked number one since 2011</p>
+                        <p>Each player two knights at the begining of the chess game </p>
+                        <p>Grand master title is highest </p>
+                        <p>First moves are called opennings</p>
+                </div>
+
+                <div id="Answer-4" class="tabcontent">
+                        <h3>Answer 4</h3>
+                        <p>Currently ranked top 5 players</p>
+                        <p>1. Magnus Carlsen,2. Fabiano Caruana, 3. Ding Liren, 4. Maxime Vachier-Lagrave, 5.Hikaru Nakamura</p>
+                        <p>Wilhelm Steinitz was the first official world champions</p>
+                </div>
+
+                <div id="Answer-5" class="tabcontent">
+                        <h3>Answer 5</h3>
+                        <p>Top 5 women grand masters</p>
+                        <p>1.Hou Yifan,2.Humpy Koneru,3.Aleksandra Goryachkin,4.Kateryna Lagno,5.Ju Wenjun</p>
+                        
+                </div>
+
+                <div id="Answer-6" class="tabcontent">
+                        <h3>Answer 6</h3>
+                        <p>There are 64 squares in the chess board</p>
+                        <p>If a pawn reaches the other side of the board it can be promoted to a more powerful piece except to a King
+                        </p>
+                    
+                </div>
+                
+
+                <script>
+                        function openCity(evt, cityName) {
+                          var i, tabcontent, tablinks;
+                          tabcontent = document.getElementsByClassName("tabcontent");
+                          for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                          }
+                          tablinks = document.getElementsByClassName("tablinks");
+                          for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                          }
+                          document.getElementById(cityName).style.display = "block";
+                          evt.currentTarget.className += " active";
+                        }
+                        
+                        // Get the element with id="defaultOpen" and click on it
+                        document.getElementById("defaultOpen").click();
+                </script>
+                
+            </section>
+
+            <div class="grand_background"></div>
+            
+            <section class="for_children">
+                <h2 class="knowledge_heading">For Children</h2>
+                <img class="children_space" src="images/handshake.png" alt="hands holding each other">
+                <p>How Many Squares on a Chessboard?</p>
+                <p>What Happens When a Pawn Reaches the Other Side?</p>
+            </section>
+            <div class="kids_background"></div>
+
+        </main>
+        <footer>
+            <p>En Passant; 2023 - Nhlakanipho Nzama</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="learn.html">Learn</a></p>
+            <p><a href="funandgames.html">Fun and Games</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank" >
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank" >
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank" >
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+   
+
 </body>
 </html>
